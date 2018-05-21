@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<head>
+	<title>1.4 Formulär</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<nav>|
+    <a href="../../index.html"> Hem </a>|
+    <b>1. Struktur med HTML5</b> |
+    <b>1.1</b><a href="../1.1/1.1.html"> Grunderna i HTML5 obligatorisk </a>|
+    <b>1.2</b><a href="../1.2/1.2.html"> Semantiska element för struktur obligatorisk </a>|
+    <b>1.3</b><a href="../1.3/1.3.html"> Semantiska element för text obligatorisk </a>|
+    <b>1.4</b><a href="../1.4/1.4.html"> Formulär obligatorisk </a>|
+    <b>1.6</b><a href="../1.6.2/1.6.2.html"> Progressivt nerladdad media obligatorisk</a>|
+  </nav>
+<hr>
+	<h1>1.4 Formulär</h1>
+<hr>
+	<form>
+
+
+		<fieldset>
+			<legend>Enrads textbox:</legend>
+			<label>Namn*</label>
+			<input type="text" placeholder="Minst 6 tecken" pattern="[A-Z a-z 0-9]{6,}" title="Bara bokstäver och siffror" autofocus required><br>
+			<label>Lösenord*</label>
+			<input type="password" placeholder="Lösenord" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Minst en siffra, en Stor bokstav och en liten bokstav samt minst 8 tecken lång." required><br>
+		</fieldset>
+		<br>
+
+		<fieldset>
+			<legend>Flerrads textbox:</legend>
+			<textarea rows="4" cols="25">Här kan man skriva............
+			</textarea><br>
+	</fieldset>
+	<br>
+
+
+			Radio-knapp:<br>
+			<input type="radio" name="kön" value="man"><label>Man</label>
+			<br>
+			<input type="radio" name="kön" value="kvinna"><label>Kvinna</label>
+	<br>
+		<br>
+
+
+			Checkbox:<br>
+			<input type="checkbox" name="kurs" value="lärorik"> Denna kurs är intressant<br>
+
+
+		<br><br>
+
+		<fieldset>
+			<legend>Knapp:</legend>
+			<label>Submit</label>
+			<input type="submit" value="Submit"><br><br>
+			<label>Image</label>
+			<input type="image" src="https://raw.githubusercontent.com/mdn/learning-area/master/html/forms/image-type-example/login.png" alt="Submit" height="25" width="60"><br><br>
+			<label>Reset</label>
+			<input type="reset" value="Reset"><br><br>
+			<label>Button</label>
+			<input type="button" value="Click Me"><br><br>
+	</fieldset>
+		<br>
+
+
+			Lista:<br>
+			<select>
+				<optgroup label="UFC">
+					<option value="GSP">George "Rush" St Pierre</option>
+					<option value="JonJones">Jon "Bones" Jones</option>
+				</optgroup>
+				<optgroup label="Boxning">
+					<option value="Tyson">"Iron" Mike Tyson</option>
+					<option value="Holyfield">Evander "The real deal" Holyfield</option>
+				</optgroup>
+			</select>
+			<br>
+
+
+
+	<br><br>
+		<fieldset>
+			<legend>Nya HTML5-typerna:</legend>
+			<label>E-mail</label>
+			<input type="email" name="email">
+			<br>
+			<label>URL</label>
+			<input type="url" name="hemsida" placeholder="Url">
+			<br>
+			<label>Number</label>
+			<input type="number" name="poäng" min="0" max="100" step="10" value="0">
+			<br>
+			<label>Range</label>
+			<input type="range" name="poäng" min="1" max="20" step="2" value="10">
+			<br>
+			<label>Datetime-local</label>
+			<input type="datetime-local" name="DTtiden">
+			<br>
+			<label>Date</label>
+			<input type="date" name="datum">
+			<br>
+			<label>Month</label>
+			<input type="month" name="månad">
+			<br>
+			<label>Week</label>
+			<input type="week" name="vecka">
+			<br>
+			<label>Time</label>
+			<input type="time" name="tid">
+			<br>
+
+</fieldset>
+</form>
+		<br>
+
+		<h3>Enrads textbox med datalist:</h3>
+
+		<form action="https://people.dsv.su.se/~pierre/courses/05_ass/ip2/2/2.2.1/perl/example.cgi" method="get">
+
+				<label>Greatest of all time?</label><br>
+				<input list ="goat" name="GOAT" type="text">
+				<datalist id="goat">
+					<option value="Dimetrious Johnsson" id="dj"></option>
+					<option value="Jon Jones" id="jj"></option>
+					<option value="Conor Mcgregor" id="cmcg"></option>
+					<option value="Anderson Silva" id="spider"></option>
+					<option value="George ST Pierre" id="gsp"></option>
+				</datalist>
+				<input type="submit" value="Ok">
+
+		</form>
+		<br>
+		<br>
+
+		<form method="post" action="https://people.dsv.su.se/~pierre/courses/05_ass/ip2/2/2.2.2/perl/example.cgi" enctype="multipart/form-data">
+
+				<label>Ladda upp fil</label><br>
+				<input type="file" name="file"><br><br>
+				<input type="submit" value="Ok">
+
+		</form>
+
+	</body>
+	</html>

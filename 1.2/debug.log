@@ -1,0 +1,67 @@
+[0507/102206.805:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb44cb0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.809:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+[0507/102206.809:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb49410000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.809:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\profapi.dll
+[0507/102206.809:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb49940000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.809:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\system32\SspiCli.dll
+[0507/102206.809:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb494e0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.809:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\cfgmgr32.dll
+[0507/102206.809:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb48250000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.809:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\DEVOBJ.dll
+[0507/102206.809:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb49380000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.809:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL
+[0507/102206.809:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb49210000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.809:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\bcryptPrimitives.dll
+[0507/102206.809:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb4b6a0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.809:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\system32\IMM32.DLL
+[0507/102206.809:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb49af0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.809:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\system32\MSCTF.dll
+[0507/102206.809:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb47800000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.809:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\shcore.dll
+[0507/102206.809:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb18050000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.809:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\65.0.3325.181\chrome_child.dll
+[0507/102206.809:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb4bf30000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\system32\COMDLG32.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb4bd90000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\system32\ole32.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb4b6e0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\system32\OLEAUT32.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb49970000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\system32\WS2_32.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb42910000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\Secur32.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb49650000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\system32\WINTRUST.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb347c0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\dbghelp.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb360b0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\USP10.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb44d30000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\WINSPOOL.DRV
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb49760000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\system32\CRYPT32.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb43380000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb43680000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb40d30000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\urlmon.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb45530000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\DWrite.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb46e30000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\dxgi.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb471c0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.18006_none_623f33d3ecbe86e8\COMCTL32.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb4bd10000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\system32\NSI.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb494c0000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\system32\MSASN1.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb43660000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\WINNSI.DLL
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb40a60000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\iertutil.dll
+[0507/102206.810:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb40730000 of 64 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.810:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\WINDOWS\SYSTEM32\WININET.dll
+[0507/102206.829:ERROR:process_reader_win.cc(242)] ReadMemory at 0x4f57a7e000 of 73728 bytes failed: Endast delar av en ReadProcessMemory- eller WriteProcessMemory-begäran har slutförts. (0x12B)
+[0507/102206.829:ERROR:crash_report_exception_handler.cc(116)] WriteEverything failed
+[0507/102206.830:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Ett försök gjordes att använda en befintlig process. (0xc000010a)

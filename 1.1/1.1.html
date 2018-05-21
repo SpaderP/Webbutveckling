@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Uppgift1.1</title>
+</head>
+
+<body>
+  <nav>|
+    <a href="../../index.html"> Hem </a>|
+    <b>1. Struktur med HTML5</b> |
+    <b>1.1</b><a href="../1.1/1.1.html"> Grunderna i HTML5 obligatorisk </a>|
+    <b>1.2</b><a href="../1.2/1.2.html"> Semantiska element för struktur obligatorisk </a>|
+    <b>1.3</b><a href="../1.3/1.3.html"> Semantiska element för text obligatorisk </a>|
+    <b>1.4</b><a href="../1.4/1.4.html"> Formulär obligatorisk </a>|
+    <b>1.6</b><a href="../1.6.2/1.6.2.html"> Progressivt nerladdad media obligatorisk</a>|
+  </nav>
+  <hr>
+    <h1>1.1 Grunderna i HTML5</h1>
+  <hr>
+
+	 <strong>Docktype</strong><br>
+	 <strong>Teckenkod</strong><br>
+	 <strong>Språk</strong><br>
+   <strong>Validering</strong><br>
+	 <br>
+  <strong>!DOCTYPE</strong>
+    <p> &lt;DOCTYPE html&gt; är ett sätt för webbläsaren att veta att vilken version av Html som dokumetet använder sig av. </p><br>
+
+  <strong>Teckenkod -&nbsp;: &lt;html lang="sv"&gt;</strong>
+	 <p>Teckenkod är en standard som talar om för datorn att den ska konvertera texten till en sekvens av bytes när den sparas i en fil.
+    Då det finns många olika typer av tecken i världen. I dagsläget används UTF-8 som är den snabb och kompakt och innehåller alla
+    icke engelska tecken.
+    Den talat om för webläsaren och datorn hur man ska uppföra sig när den ser ett antal tecken. </p>
+  <br>
+
+  <strong>Språk</strong>
+    <p>Detta görs helt enkelt så här: &lt;html lang="en"&gt;. Det attribut vi lade till är då lang som då anger vilket språk som sidan är skriven i. I detta fall är det engelska som är språket. Detta är ett språk attrubut som förenklar för sökmotorer vid sökning vilket filtrerear ollika språk vid sökning. Har man exempelvis  detta hjälper då text textläsare att bestämma vilket språk den ska läsa upp texten på</p>
+
+  <strong>Validering</strong>
+    <p>Genom en validator undersöks din kod så att den uppfyller de standarder som finns. Genom en validator kan man kolla om ens kod uppfyller de konventionella standarder på en hemsida.
+    Några exempel på vad för
+    För att börja göra en hemsida krävs det vissa koder.
+    </p>
+  </br>
+    &lt;!DOCTYPE html&gt;<br>
+    &lt;html lang="sv"&gt;<br>
+    &lt;head&gt;<br>
+    &lt;meta charset="utf-8"&gt;<br>
+    &lt;title&gt;A Tiny HTML Document&lt;/title&gt;<br>
+    &lt;link href="styles.css" rel="stylesheet"&gt;<br>
+    &lt;script src="scripts.js"&gt;&lt;/script&gt;<br>
+    &lt;/head&gt;<br>
+    &lt;body&gt;<br>
+    &lt;p&gt;Hello world.&lt;/p&gt;<br>
+    &lt;/body&gt;<br>
+    &lt;/html&gt;<br>
+
+<h2>HTML Strukturen</h2>
+  <p><strong>Struktur</strong></p>
+  <p><strong>Metainformation</strong></p>
+  <p><strong>Text</strong></p>
+  <p><strong>Hyertext </strong></p>
+  <p><strong>Ornade och Oornade listor </strong></p>
+  <p><strong>Tabell </strong></p>
+  <p><strong>Bild </strong></p>
+  <p><strong>Bilkoartor </strong></p>
+  <p>Nedantill finns det en kort beskrivning på en del taggar och deras funktioner.</p>
+
+<strong><h3>Struktur</h3> </strong>
+  <p><strong>html </strong> &lt;html&gt;&lt;/html&gt; Detta referarar till själva huvudroten i html dokumenetet. &lt;html&gt;&lt;/html&gt; är taggarna för all kontenta som finns inom dessa ramar. Förutom &lt;!DOCTYPE&gt;</p>
+  <p><strong>head </strong>Detta rfererar till alla metadata som finns i dokumentet</p>
+  <p><strong>body </strong>Detta representerar huvudkontentan i dokumentet eller hemsidan. </p>
+  <p><strong>title </strong>Definerar titeln på dokumentet alltså hemsidan. Vilket står på webbläsaren.</p>
+  <br>
+
+  <strong><h3>Metainformation:</h3></strong>
+    <p>Definerar titeln på dokumentet alltså hemsidan. Vilket står på webbläsaren.</p>
+  <p><strong>Meta-taggar med namn attribut:</strong> Definerar titeln på dokumentet alltså hemsidan. Vilket står på webbläsaren.<br>
+    <strong>Author </strong>Bestämmer namnet på sidans författare.<br>
+    <strong>Description </strong> Förklarar sidans kontenta.<br>
+    <strong>Generator </strong>Identifierar mjukvaran som generar dokumentet.<br>
+    <strong>Keywords </strong>Bestämmer namnet på sidans författare.<br>
+    <strong>Robots </strong>Förklarar sidans kontenta.&nbsp;Det finns vissa tags som inte är lika enkla att förstå och bland dessa finns det t.ex. robots, generator och http-equiv. Robots används för att ange information för de botar (kallas ibland spindlar eller robots) som indexerar för sökmotorer. Man kan ange om sidan skall bli indexerad och om länkar på sidan skall följas eller inte.</p>
+          <br>
+  <strong>Meta-tabbar med attributer:</strong>
+  <p><strong>http-equiv</strong><br>
+    när http_equiv attributen är specifierad på meta elemnetet då blir det ett pragmatisk direktiv.&nbsp;Http-equiv tag skall inte användas tillsammans med name tagen. Http-equiv simulerar något som kallas HTTP response header. Detta är den information som en webserver får efter att den gjort en request. Eftersom man inte alltid har tillåtelse att konfigurera den webserver man använder kan man använda http-equiv för att som sagt simulera vad för respons man vill skicka till webservern. Denna information ges då allmänt inom header elementet men http-equiv låter en göra lite extra. Man kan t.ex. säga att en sida skall laddas om vid ett visst intervall. Varjde sida bör ange vilken teckenkodning som används och det görs genom en tag kallad charset. Denna sida använder t.ex. utf-8. Detta anges på följande sätt: &lt;meta charset="utf-8"&gt;. Head används också till att länka till filer med CSS eller JavaScript kod. Man kan också lägga in CSS kod via &lt;style&gt; element och JavaScript kod via &lt;script&gt; element.</p>
+
+  <strong><h3></h3>Text:</strong><br>
+    <p><strong>Blockquote </strong> blockquote taggarna specificerar en sektion från en anna källa. </p>
+    <p><strong>h1, h2, h3, h4, h5, h6,</strong> Detta element har en rankning baserad på deras nummer. <strong>h1</strong> har den högsta och <strong>h6</strong> desn lägsta </p>
+    <p><strong>p </strong> &lt;p&gt; Definerar en paragraf vilke innebär att det automatiskt infogas marginal innan och efter taggarna.</p>
+    <p><strong>span</strong> &lt;span&gt; används för att dela in texten i egna logisk elemnet. Det sker ingen visuell skillnad med dessa taggar men man kan ge attribut som går att redigera i css. </p>
+    <p><strong>pre </strong>&lt;pre&gt; Syftar på innnan en text blivit formaterad. Texten visar då en bestämd font och förvara både mellanrum och radbrytningar.</p>
+	<br>
+  <h3><strong> Hypertext:</strong></h3>
+    <p><strong>a</strong> definerar en så kallad hyperlink som används för att länka/ koppla från en sida till en annan. Viktigt attpoängtera att detta element är beroende av
+    attributen <strong>href</strong> som pekar på destinationen </p>
+    <p><strong>Relativ & absolut länk</strong> En relativ länk Syftar på en filväg som har ngt gemensamt med den nuvarande sidan dokumentet. absolut inkluderar  en full webbadress med http://www. </p>
+    <p><strong>Länk till ankare</strong>Om objektet som skall länkas till behöver defineras genom ett namn som blir ankaren.</p>
+    <p><strong>Bild-länk</strong>En bild som används som en länk kan man definer inom a taggarna</p>
+    <p><strong>Länkt till olika protokoll ex ftp</strong>Genom att skriva ftp</p>
+    <p><strong>Mailto-länk</strong> Länkar till en email adress vilket bara fungerar om användaren har installerat email på sin dator.</p>
+  <br>
+  <h3><strong> Oornade & Ornade listor:</strong></h3>
+    <p><strong>dl</strong> Denna tag är till för att en lisa med beskrivning. </p>
+    <p><strong>dt</strong> Difinerar en term eller namn i en descriptiv lista. </p>
+    <p><strong>dd</strong>Difinerar en term eller namn i en descriptiv lista.</p>
+    <p><strong>ol</strong> Skapar en lista som är ornad antingen numrerisk eller afabetiskt.</p>
+    <p><strong>ul</strong>Skapar en Oornad lista med prickar</p>
+    <p><strong>li</strong>Denna tag definerar det objekt/ text som finns i listan. </p>
+  <br>
+  <h3><strong> Tabell:</strong></h3>
+    <p><strong>caption</strong>Denierar en tabel rubrik</p>
+    <p><strong>table</strong> En tabel defineras med dessa. </p>
+    <p><strong>td</strong> Definerar en standard cell</p>
+    <p><strong>th</strong> Defineraren rubrikcell i tabellen</p>
+    <p><strong>tr</strong>Gör så att man kan skapa en ny rad i tabellen.</p>
+  <br>
+
+  <h3><strong> Bild:</strong></h3>
+    <p><strong>img</strong>För att lägga in en bild använder man denna tag som man kan tilläga med en beskrivning och attribut. </p>
+
+  <br>
+  <h3><strong> Bildkartor:</strong></h3>
+    <p><strong>area</strong> Med denna tag kan man skapa ett område på en bild som ska gå att klicka på </p>
+    <p><strong>map</strong>Definerar den själva bilden som har ska ha dessa klickbara områden. </p>
+
+</body>
+
+</html>

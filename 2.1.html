@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<head>
+	<title>2.1 Grunderna i CSS 3</title>
+	<meta charset="UTF-8">
+	</head>
+	<body>
+		<nav>
+			<a href="../../index.html"> Hem</a>|
+			<b>2. Design med CSS3</b> |
+			<b>2.1</b><a href="../2.1/2.1.html"> Grunderna i CSS3 </a>|
+			<b>2.2</b><a href="../2.2/2.2.html"> Text och listor </a>|
+			<b>2.3</b><a href="../2.3/2.3.html"> Marginaler, kantlinjer och paddning </a>|
+			<b>2.4</b><a href="../2.4/2.4.html"> Bilder och bakgrunder </a>|
+			<b>2.5</b><a href="../2.5/2.5.html"> Navigering </a>|
+			<b>2.6</b><a href="../2.6/2.6.html"> Tabeller och formulär </a>|
+			<b>2.7</b><a href="../2.7/2.7.html"> Sidlayout </a>|
+			<b>2.8</b><a href="../2.8/2.8.html"> Anpassning till olika enheter </a>|
+		</nav>
+		<hr>
+			<h1>2.1 Grunderna i CSS 3</h1>
+		<hr>
+			<h2>Externt länkad CSS-fil och dess fördelar</h2>
+					<p>
+						Fördelarna med externa style Sheets är att man kan applicera den till ett flertal sidor. En av de största fördelarna är att man ändra flera
+						sidor genom att ändra ett style-sheet. Det enda som krävs är att man länkar sidan till style-sheet genom <code>&lt;link&gt;</code> taggarna. En annan fördel är att
+						man kan skriva dessa css koder i alla typer av text redigerare.
+						<br>
+						<br>
+						(När man använder sig av en externt länkad CSS-fil så har man designen av en hemsida i en fil.
+						Den externa CSS filen innehåller information om hur sidan skall se ut, tex bilder, färger etc.
+						Fördelarna med att använda sig av en extern CSS-fil är att man kan använda samma fil på flera olika sidor och få ett sammanhängande utseende på de olika sidorna
+						samt att man slipper tänka på designen i varje individuell sida.)
+					</p>
+
+			<h2>Arv</h2>
+					<p>
+						Arv syftar på att de egenskaper som ges av "parent" taggarna vilket syfter på de egenskaper som finns i de öveordnade taggarn följer med i de underordnade.
+						<code><br>
+							&lt;div&gt;<br>
+								    &lt;h2&gt;<br>
+								&lt;/h2&gt;<br>
+							&lt;/div&gt;<br>
+						</code>
+						<br>
+						<br>
+						Betyder att CSS som påverkar en tagg även påverkar de taggar som finns inne i den första taggen.
+						Om man anger en egenskap till taggen:
+						<code>&lt;div&gt;</code> så kommer även andra taggar som finns i <code>&lt;div&gt;</code>
+						taggen påverkas som exempelvis om det finns en <code>&lt;h1&gt;</code> i div taggen så kommer även den ärva från <code>&lt;div&gt;</code>.
+					</p>
+
+			<h2>Cascade</h2>
+					<p>
+						Cascade syftar på att olika stilar som defineras i CSS kan "falla" eller cascade fån en stil till en annan vilket gör det möjligt att ha flera style sheets som kan
+						användas i ett HTML dokument.
+						<br>
+						<br>
+						(Betyder att stilar kan "falla" (cascade) från en "style-sheet" till ett annat, så att flera "style-sheets" kan användas på ett HTML-dokument.
+						Om en stil appliceras på en tagg flera gånger i olika nivåer så kan det bli konflikter. Det är dessa konflikter som Cascade, genom att bestämma hur webbläsaren ska lösa
+						konflikten, med bestämdas regler, definera vilken egenskap det är som "vinner".)
+					</p>
+
+			<h2>Selektorer</h2>
+					<h3><b>Tag-selektorn</b></h3>
+							<p>
+								Tag- selektorn används för att omdefinera redan befintliga HTML taggar. Genom att välja denna möjlighet kan man ändra förbestämda egenskaper hos taggar som ex
+								h1 som har en förbestämd storlek.
+							</p>
+					<h3><b>Attribut-selektorn</b></h3>
+							<p>
+								Attribut selektorn används för att välja element med specifika attribut.
+								exempel: Har man en länk som man vill ska öppna i ett nytt fönster. Kan man välja att färglägga dessa länkar specifikt i css koden genom att skriva
+							</p>
+							<b>CSS</b><br>
+									<code>
+									a[target]{<br>
+									bakground-color:green;<br>
+									}<br>
+									<br>
+								</code>
+							<b>HTML</b>
+									<p>Target speciferar var länken skall öppna sig, blank gör att den öppnar sig i en tom flik.</p>
+									<code>
+												&lt;a href="https://www.google.com/"&gt; Google&lt;/a&gt;<br>
+												&lt;a href="https://www.youtube.com/" target="blank"&gt; Youtube &lt;/a&gt;<br>
+									</code>
+					<h3><b>Klass-selektorn</b></h3>
+							<p>
+								Klass selektorn väljer ett eller ett flertal element med en klass attribut. För att välja en specifik klass i css koden börjar man med en punkt och skriver
+								klassnamnet efter punkt(.class).<br>
+								exempel
+							</p>
+							<b>HTML</b><br>
+								<code>
+									&lt;div class="klassen"&gt;<br>
+								</code>
+							<b>CSS</b><br>
+								<code>
+									.klassen{<br>
+									background-color:green;<br>
+									}<br>
+								</code>
+					<h3><b>ID-selektorn</b></h3>
+							<p>
+								Allt som tillhör ett viss ID påverkas av selektorn, tex om man har en div med id="blue" så kan man ha satt blue till att ha en blå färg.
+								Med ID selektorn kan man välja ett element som ska påverkas.
+							</p>
+					<h3><b>Child-selektorn</b></h3>
+							<p>
+								Child-selektorn definerar att element som matchas av den andra selektorn måste vara de direkta barnen av elementen som matchas av den första selektorn.
+								Child selektorn är placerad mellan två css selektorer vilket gör den till en Child-selektor. Element som matchas av den andra selektorn bör vara Child till den första
+							</p>
+
+			<h2>Enheter</h2>
+					<b>Absoluta:</b>
+							<p>
+								Absoluta enheter är de enheter som har fasta värden i relation till en annan enhet.<br>
+								<br>
+								Inte idealt att ha om man ska skriva ut på skämrar efters om skärmstorlekar ändras väldigt mycket.
+								Den absoluta längden är fix och kommer att utformas exakt som den storlek som utlovats.
+							</p>
+							<ul>
+									<li>
+											In = inches. (1 in = 96 px = 2.54 cm).
+									</li>
+									<li>
+											Cm = centimeter.
+									</li>
+									<li>
+											Mm = millimeter.
+									</li>
+									<li>
+											Pt = points (1 pt = 1/72 of 1 in).
+									</li>
+									<li>
+											Pc = picas (1 pc = 12 pt).
+									</li>
+									<li>
+											Px = pixlar (1 px = 1/96th of 1 in).
+											Pixlar är relativ till den enhet som tittar.
+									</li>
+							</ul>
+					<b>Relativa:</b><br>
+							<p>
+								Relativa enheter är de enheter som har i relation till en annan enhet har ett relativt värde.
+							</p>
+							<ul>
+									<li>
+											<b>em</b> Relativt till elementets teckensnittstorlek (2em betyder 2 gånger storleken på den aktuella teckensnittet)
+									</li>
+									<li>
+											<b>ex</b> ex I förhållande till x-höjden på nuvarande teckensnitt (sällan används)
+									</li>
+									<li>
+										 	<b>%</b> I förhållande till moderelementet
+									</li>
+							</ul>
+
+			<h2>Hur ett CSS-dokument är uppbyggt</h2>
+					<p>
+						Syftet bakom CSS skapande var att man enkelt ska kunns redigera ett HTML dokument och dess utseende och främst slippa ändra om på varje HTML dokument om man skulle vilja ändra
+						tex text färg. Med CSS kan man ha ett separat dokument där man kan rediger, fixa och länka till flera olika HTML dokument. CSS reglerna består av en selektor och ett deklarationsblock
+						man skriver vad som ska declareras.
+						<br>
+						Det finns flera sätt att bygga upp ett CSS-dokument och det finns inget riktigt "rätt" sätt.
+						Man kan ha en externt länkad CSS eller en intern. CSS står för Cascading Style Sheets och meningen med CSS är att och problemet den löste var att man ska slippa
+						designa och formatera hemsidor i HTML.
+					</p>
+
+</body>
+</html>

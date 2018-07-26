@@ -1,0 +1,23 @@
+
+#VioletBlue{
+	color: 	#8A2BE2;
+}
+#aqua {
+	color: aqua;
+}
+
+#times{
+	font: 1.5em times;
+}
+
+
+#courier{
+	font: 35px Courier;
+}
+
+#listK{
+	list-style-type: square;
+}
+#listC{
+	list-style-type: circle;
+}

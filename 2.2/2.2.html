@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<head>
+	<title>2.2 Text och listor</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<nav>
+		<a href="../../index.html"> Hem</a>|
+		<b>2. Design med CSS3</b> |
+		<b>2.1</b><a href="../2.1/2.1.html"> Grunderna i CSS3 </a>|
+		<b>2.2</b><a href="../2.2/2.2.html"> Text och listor </a>|
+		<b>2.3</b><a href="../2.3/2.3.html"> Marginaler, kantlinjer och paddning </a>|
+		<b>2.4</b><a href="../2.4/2.4.html"> Bilder och bakgrunder </a>|
+		<b>2.5</b><a href="../2.5/2.5.html"> Navigering </a>|
+		<b>2.6</b><a href="../2.6/2.6.html"> Tabeller och formulär </a>|
+		<b>2.7</b><a href="../2.7/2.7.html"> Sidlayout </a>|
+		<b>2.8</b><a href="../2.8/2.8.html"> Anpassning till olika enheter </a>|
+	</nav>
+	<hr>
+		<h1>2.2 Text och listor</h1>
+	<hr>
+	<br>
+		<h2>Fontfamilj</h2>
+				<p>Font-family egenskaperna specificerar att teckenstinnett som ett element. Font-famlilj kan besitta olika teckensnittsnamn
+						som en backup plan. Om en webbläsare inte klarar det första teckensnitttet så kan de använda nästa.
+						Det finns två typer av font familjer. Family-name och generic-family.
+				</p>
+				<h4><b>Serif</b></h4>
+						<p>
+							Seriff som det kallas på svenska, består då av en klack schattering, vilket utmärker en typ av bokstäver i en teckenuppsättning.
+						</p>
+				<h4><b>Sans-serif</b></h4>
+						<p>
+							När seriffer saknas i ett teckensnitt kallas de sans-seriffer. är ett teckensnitt som inte har seriffer (Sans betyder utan). Används ofta i rubriker eller korta texter.
+						</p>
+				<h4><b>Monospace</b></h4>
+						<p>
+							Dessa teckensitt är ett teckensnitt som är jämnställd där alla bokstäver tar upp exakt lika mycket plats storlek på bredden och längden. Vilket andra typsnitt inte alltid gör 	<br>
+						</p>
+		<h2>Enheter</h2>
+				<p>
+						För att kunna påverka storleken på teckensnitten, använder man sig av olika enheter.
+				</p>
+				<h4><b>Nyckelord</b></h4>
+						<p>
+							Nyckelord kan man Öka eller minska storleken baserad på den relativa "parent"storleken.
+							Man kan gå upp tre steg (large, x-large, xx-large).
+							eller gå ned tre steg (small, x-small, xx-small).
+						</p>
+				<h4><b>%</b></h4>
+						<p>
+							Procent består av ett tal och ett procenttecknet %. Vilket är relativt till den "parent" vilket gör att den kan användas på många olika webbläsare
+							utan at det ser allt för konstigt ut.
+						</p>
+				<h4><b>Em</b></h4>
+						<p>
+							Enheten Em är relativt till font-storleken hos det elementet som anges. 2em betyder 2 gånger font-storleken hos elementet.
+						</p>
+		<h2>Färg</h2>
+				<p>
+						Man kan ange teckenfärg på två sätt. Med RGB-värden, hexakod eller förbestämda kommandon.
+				</p>
+				<b>Exempel:</b>
+				<code>
+					<p id="aqua">Färgen på den här texten kallas för <b>aqua</b>, vilket går att skriva direkt i css.</p>
+					<br>HTML<br>
+					&lt;p id="aqua"&gt; Färgen på den här texten kallas för &lt;b&gt;aqua&lt;/b&gt;, vilket går att skriva direkt i css. &lt;/p&gt;<br>
+					<br>CSS<br>
+					#aqua {
+						color: aqua;
+					}
+					<br>
+					<br>
+					<p id="VioletBlue"> Färgen på denna text är Blue Violet. Denna färg är definerad med hexakoden koden </p>
+					<br>HTML<br>
+					&lt;p id="VioletBlue"&gt; Detta är Blue Violet &lt;/p &gt;<br>
+					<br>CSS<br>
+					#VioletBlue {
+						color: #8A2BE2;
+					}
+				</code>
+		<h2>Teckensnitt</h2>
+				<h4><b>Font</b></h4>
+						<p>
+								Teckensnittet i dokumentet kan ändras genom att ändra fonten. Vilket bland annat ändrar utseendet.
+						</p>
+				<b>Exempel:</b>
+				<p id="times">Detta är time med storlek 1.5em.</p>
+				<p id="courier">Detta är Lucida Console med storlek 30px.</p>
+		<h2>Listor</h2>
+				<h4><u>List-Style</u></h4>
+						<p>Genom list- style kan man ändra hur en lisa kan se ut.<br>
+							Exempel:
+						</p>
+						<ul id="listK">
+							<li>Kubformade element 1</li>
+							<li>Kubformade element 2</li>
+							<li>Kubformade element 3</li>
+							<li>Kubformade element 4</li>
+						</ul>
+
+						<ul id="listC">
+							<li>Kubformade element 1</li>
+							<li>Kubformade element 2</li>
+							<li>Kubformade element 3</li>
+							<li>Kubformade element 4</li>
+						</ul>
+</body>
+</html>

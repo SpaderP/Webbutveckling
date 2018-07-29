@@ -1,0 +1,151 @@
+
+
+#marginalE {
+	margin-top: 6px;
+	margin-bottom: 7px;
+	margin-left: 11px;
+	margin-right: 10px;
+}
+#borderF{
+	border-style: groove;
+	border-width: 25px;
+	border-color: fuchsia;
+}
+#borderM{
+	border: 15px Outset maroon;
+}
+#padding{
+padding: 20px 20px 20px 20px;
+background-color: Plum;
+}
+#outline{
+	border: 3px solid black;
+	padding: 10px 10px 10px 10px;
+	outline: MediumAquaMarine double;
+	outline-width: 15px;
+}
+#visible{
+	visibility: visible;
+}
+#unvisible{
+	visibility: hidden;
+}
+#clipp{
+	position: absolute;
+    clip: rect(0px,60px,200px,0px);
+}
+#displayI{
+	display: inline;
+}
+#displayB{
+	display: block;
+}
+#displayIB{
+	display: inline-block;
+}
+#overflow{
+	background-color: lightblue;
+    width: 110px;
+    height: 100px;
+    overflow: scroll;
+}
+#box1{
+	/*transparent*/
+	background-color: rgb(144, 238, 144);
+	text-align: center;
+	width: 500px;
+	height:100px;
+}
+#box1T{
+	/*transparent*/
+	background-color: rgb(144, 238, 144);
+	opacity:0.2;
+	text-align: center;
+	width: 500px;
+	height:100px;
+}
+
+#box2R1{
+	/*Radius 4*/
+	width: 250px;
+	height:100px;
+	background-color: LightGoldenRodYellow ;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	border-radius: 15px 50px 30px 5px;
+}
+#box2R2{
+	/*Radius 3*/
+	width: 250px;
+	height:100px;
+	background-color: LightPink  ;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	border-radius: 15px 50px 30px;
+}
+#box2R3{
+	/*Radius 2*/
+	width: 250px;
+	height:100px;
+	background-color: Khaki  ;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	border-radius: 15px 50px;
+}
+#box2R4{
+	/*Radius 1*/
+	width: 250px;
+	height:100px;
+	background-color: Lavender ;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	border-radius: 15px;
+}
+#box3{
+	/*MultiBilder*/
+	height: 300px;
+	background-image: url(../bild/smile.png), url(../bild/havet.jpg);
+	background-size: 100px, 400px;
+	background-position: top left, left top;
+	background-repeat: no-repeat, no-repeat;
+	padding: 15px;
+}
+#box4{
+	/*Skugga*/
+		width: 150px;
+		height:150px;
+		text-align: center;
+		vertical-align: middle;
+		background-color: MediumVioletRed ;
+		line-height: 100px;
+		box-shadow: 20px 20px 10px MidnightBlue ;
+}
+#box4S{
+		/*Skugga flera*/
+	border: 1px solid;
+	padding: 10px;
+	width: 100px;
+	height:100px;
+	box-shadow: 5px 5px red, 10px 10px yellow, 15px 15px cyan, 20px 20px blue, 25px 25px magenta;
+}
+#box5linear{
+
+		width: 200px;
+		height:100px;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 100px;
+		background: linear-gradient(to bottom, gold, yellowgreen);
+}
+#box5radial{
+	width: 200px;
+	height:100px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	background: radial-gradient(lightcoral, maroon );
+}

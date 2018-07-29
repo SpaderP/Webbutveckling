@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<head>
+	<title>2.3 Marginaler, kantlinjer och paddning</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<nav>
+			<a href="../../index.html"> Hem</a>|
+			<b>2. Design med CSS3</b> |
+			<b>2.1</b><a href="../2.1/2.1.html"> Grunderna i CSS3 </a>|
+			<b>2.2</b><a href="../2.2/2.2.html"> Text och listor </a>|
+			<b>2.3</b><a href="../2.3/2.3.html"> Marginaler, kantlinjer och paddning </a>|
+			<b>2.4</b><a href="../2.4/2.4.html"> Bilder och bakgrunder </a>|
+			<b>2.5</b><a href="../2.5/2.5.html"> Navigering </a>|
+			<b>2.6</b><a href="../2.6/2.6.html"> Tabeller och formulär </a>|
+			<b>2.7</b><a href="../2.7/2.7.html"> Sidlayout </a>|
+			<b>2.8</b><a href="../2.8/2.8.html"> Anpassning till olika enheter </a>|
+		</nav>
+		<hr>
+			<h1>2.3 Marginaler, kantlinjer och paddning</h1>
+		<hr>
+				<h2>Boxmodell</h2>
+						<p>Alla HTML element kan man säga består av lådor "Box". I css använder man termen Box modell
+				 			vilket man använder då man prata om designen och layout.
+							Css boxmodellen är helt enkelt en låda som är ihopkopplad på varje HTML elemnt.
+							Den består av <b>Margin, Borders, Padding</b> och <b>Innehållet</b>
+						</p>
+						<ul>
+							<li><b>Innehåll</b> - Innehållet i rutan, där text och bilder visas</li>
+							<li><b>Padding</b> - Rensar ett område runt innehållet. Polstret är transparent</li>
+							<li><b>Border</b> - En kant som går runt vadderingen och innehållet</li>
+							<li><b>Marginal</b> - Rensar ett område utanför gränsen. Marginalen är transparent</li>
+						</ul>
+
+				<h2>Marginaler</h2>
+						<h3>Margin</h3>
+								<p>
+									CSS-marginalegenskaperna används för att skapa utrymme runt element, utanför några avgränsade gränser.
+									Med CSS har du full kontroll över marginalerna. Det finns egenskaper för att ställa in marginalen för varje sida av ett element
+									(topp, höger, botten och vänster).
+								</p>
+									<b>Exempel:</b>
+									<p id="marginalE">Såhär kan margin se ut på en text i &lt;p&gt;-elementet:<br>
+											<code>
+												p {<br>
+												margin-top: 6px;<br>
+												margin-bottom: 7px;<br>
+												margin-right: 11px;<br>
+												margin-left: 7px;<br>
+											}</code><br>
+									</p>
+				<h2>Kantlinjer</h2>
+						<h3>Border, Border-color, Border-style, Border-width</h3>
+								<p>CSS-border kan man anpassa kantlinjer genom att ange stil, bredd och färg på ett elements kantlinje.</p>
+								<b>Exempel:</b>
+								<p id="borderF">
+									<code><br>
+										#borderF {<br>
+										border-style: groove;<br>
+										border-width: 25px;<br>
+										border-color: fuchsia;<br>
+										}<br></code>
+								</p>
+								<p id="borderM">
+									<code><br>
+										#borderM {<br>
+											border: 15px Outset maroon;<br>
+										}</code>
+								</p>
+					<h2>Padding</h2>
+							<p>Padding används för att generera utrymme runtinnehållet hos ett elements innehåll och dess definerade kantlinjer.
+								Med CSS har du full kontroll över padding. Det finns egenskaper för att ställa in padding på alla sidor av ett element (topp, höger, botten och vänster).
+							</p>
+							<b>Exempel:</b>
+							<p id="padding">
+								<code>#padding{<br>
+									padding: 20px 20px 20px 20px;<br>
+									background-color: OldLace;<br>
+								}</code><br>
+							</p>
+
+					<h2>Outlines</h2>
+							<p>Outline är en linje som dras runt elementet, utanför kantlinjerna, för att få elementet att "sticka ut".
+							</p>
+							<b>Exempel:</b>
+							<p id="outline">
+								<code>#outline{<br>
+									border: 3px solid black;<br>
+									padding: 10px 10px 10px 10px;<br>
+									outline: MediumAquaMarine double;<br>
+									outline-width: 15px;<br>
+								}</code><br>
+							</p>
+				<h2>Synlighet</h2>
+						<h3>Visibility</h3>
+								<p>
+										Anger om ett element är synligt eller inte.
+								</p>
+
+							<br>
+							<b>Exempel:</b>
+							<p id="visible">
+								<b>Synligt</b><br>
+								<code>#visible{<br>
+									visibility: visible;<br>
+								}</code><br>
+							</p>
+							<p id="unvisible"></p>
+								<b>osynligt</b><br>
+							<code>#unvisible{<br>
+								visibility: hideen;<br>
+							}</code></br>
+							<br>
+
+							<h3>Clip</h3>
+<p>
+
+</p>
+							OM en bild är större än ett element då kan man använda clip egenskaper där man specificerar en rektangel som absolut gentemot elementet.
+		 					Genom att ange fyra kordinationer kan elementet klippas ut.<br>
+							<b>Exempel:</b><br>
+								<img src="bild/lala.jpg" width="100" height="40" id="clipp">
+							<br>
+							<br>
+							<code><br>
+								#clipp{<br>
+									position: absolute;<br>
+									clip: rect(0px,100px,60px,0px);<br>
+								}</code>
+								<br>
+								<br>
+							<h3>Display</h3>
+									<p>
+											Displayegenskapen anger det visningsbeteendet som ett element ska ha.<br>
+									</p>
+									<b>Exempel:</b>
+									<br>
+									<br>
+									<b>Inline</b><br>
+									<p >
+										Cat ipsum dolor sit amet, scratch at fleas, meow until belly rubs, hide behind curtain when <i id="displayI">vacuum cleaner,</i>
+										is on scratch strangers and poo on owners food so scratch the box chirp at birds or you call this cat food.
+										Be superior dead stare with ears cocked.
+										</p>
+
+									<br>
+									<br>
+									<b>Block:</b><br>
+										<p>
+											Cat ipsum dolor sit amet, scratch at fleas, meow until belly rubs, hide behind curtain when <i id="displayB">vacuum cleaner,</i>
+											is on scratch strangers and poo on owners food so scratch the box chirp at birds or you call this cat food.
+											Be superior dead stare with ears cocked.
+									 	</P>
+										<br>
+										<br>
+									<b>Inlinen-Block:</b><br>
+										<p >
+											Cat ipsum dolor sit amet, scratch at fleas, meow until belly rubs, hide behind curtain when <i id="displayIB">vacuum cleaner,</i>
+											is on scratch strangers and poo on owners food so scratch the box chirp at birds or you call this cat food.
+											Be superior dead stare with ears cocked.
+										</p>
+									<br>
+									<br>
+
+							<h3>Overflow</h3>
+									<p>
+											Med overflow anger man vad som ska hända med innhållet då det överflödar ett element.
+									</p>
+									<br>
+									<b>Exempel:</b>
+									<p id="overflow">
+											Cat ipsum dolor sit amet, scratch at fleas, meow until belly rubs, hide behind curtain when vacuum cleaner,
+											is on scratch strangers and poo on owners food so scratch the box chirp at birds or you call this cat food.
+											Be superior dead stare with ears cocked.
+											Cat ipsum dolor sit amet, scratch at fleas, meow until belly rubs, hide behind curtain when vacuum cleaner,
+											is on scratch strangers and poo on owners food so scratch the box chirp at birds or you call this cat food.
+											Be superior dead stare with ears cocked.
+									</p>
+									<br>
+									<br>
+									</code>#overflow{<br>
+										background-color: lightblue;<br>
+									    width: 110px;<br>
+									    height: 100px;<br>
+									    overflow: scroll;<br>
+									}</code> <br>
+									<br>
+									<br>
+						<h2>Beskriv och exemplifiera även hur man kan få en box:</h2>
+							<h3>Box 1. Transparens</h3>
+								<p>
+									CSS-opacitetsegenskapen ställer opaciteten för hela elementet (både bakgrundsfärg och text blir ogenomskinliga / transparenta).
+									Egenskapens värde för opacitet måste vara ett tal mellan 0,0 (helt transparent) och 1,0 (helt ogenomskinligt).	<br>
+								</p>
+								<b>Exempel:</b><br>
+									<div id="box1">
+										<p><b>OriginalBox med originalfärg i RGBA</b></p>
+									</div>
+									<br>
+									<div id="box1T">
+										<p>Opacitet satt på 20%</p>
+									</div>
+									<br>
+									<br>
+									<code>
+										#box1{<br>
+											background-color: rgb(144, 238, 144);<br>
+											text-align: center;<br>
+											width: 300px;<br>
+											height:100px;<br>
+										}<br>
+										#box1T{<br>
+											background-color: rgb(144, 238, 144);<br>
+											opacity:0.2;<br>
+											text-align: center;<br>
+											width: 300px;<br>
+											height:100px;<br>
+										}<br>
+									</code>
+								<br>
+								<br>
+							<h3>Box 2.Rundade-hörn</h3>
+								<p>
+									Med border-radius följt av ett värde så kan vi göra rundade hörn. Ju högre värde vi har desto mer kan vi runda av hörnet.
+								</p>
+								<b>Exempel:</b><br>
+								<code>
+									#box2R1{<br>
+									width: 250px;<br>
+									height:100px;<br>
+									background-color: LightGoldenRodYellow ;<br>
+									text-align: center;<br>
+									vertical-align: middle;<br>
+									line-height: 100px;<br>
+									border-radius: 15px 50px 30px 5px;<br>
+									}<br>
+								</code>
+								<div id="box2R1">
+									<p>border-radius: 15px 50px 30px 5px:</p>
+								</div>
+								<div id="box2R2">
+									<p>border-radius: 15px 50px 30px:</p>
+								</div>
+								<div id="box2R3">
+									<p>border-radius: 15px 50px:</p>
+								</div>
+								<div id="box2R4">
+									<p>border-radius: 15px</p>
+								</div>
+								<br>
+
+							<h3>Box 3. Multipla bakgrundsbilder</h3>
+								<p>
+									med css kan man ha multipla bakgrundsbilder genom background-image. De olika bakgrunderna skiljer man åt genom ett komma tecken. Bilderna är därmed
+									palcerade ovanpå varandra där den första bilden är den som är synligast först för tittaren.
+								</p>
+								<br>
+								<b>Exempel:</b>
+								<br>
+								<div id="box3">
+								</div>
+								<br>
+								<code>
+										#box3{<br>
+										/*MultiBilder*/<br>
+										height: 300px;<br>
+										background-image: url(nqfzkzcwdr.png), url(havet.jpg);<br>
+										background-size: 100px, 400px;<br>
+										background-position: top left, left top;<br>
+										background-repeat: no-repeat, no-repeat;<br>
+										padding: 15px;<br>
+										}<br>
+								</code>
+							<h3>Box 4. Skuggor</h3>
+									<p>
+										Man kan använda sig av box-shadow för att sätta en skugga på ett element.
+									</p>
+									<br>
+									<b>Exempel:</b><br>
+									<div id="box4">
+										<p>Skuggad låda</p>
+									</div>
+									<br>
+									<br>
+									<div id="box4S">
+										<p>Flera skuggor med olika färger</p>
+									</div>
+									<br>
+									<br>
+									<code>
+										#box4{	<br>
+										/*Skugga*/	<br>
+										width: 150px;	<br>
+										height:150px;	<br>
+										text-align: center;	<br>
+										vertical-align: middle;	<br>
+										background-color: MediumVioletRed ;	<br>
+										line-height: 100px;	<br>
+										box-shadow: 20px 20px 10px MidnightBlue ;	<br>
+										}	<br>
+										#box4S{	<br>
+										/*Skugga flera*/	<br>
+										border: 1px solid;	<br>
+										padding: 10px;	<br>
+										width: 100px;	<br>
+										height:100px;	<br>
+										box-shadow: 5px 5px red, 10px 10px yellow, 15px 15px cyan, 20px 20px blue, 25px 25px magenta;	<br>
+										}	<br>
+									</code>
+									<br>
+									<br>
+
+							<h3>Box 5. Gradienter</h3>
+									<p>
+										Man kan genom CSS visa en mjuk övergång mellan två eller flera spcifika färger.
+										Det finns två typer av gradient.
+									</p>
+									<ul>
+										<li><b>Linear Gradients (goes down/up/left/right/diagonally)</b></li>
+										<li><b>Radial Gradients (defined by their center)</b></li>
+									</ul>
+									<b>Exempel:</b><br>
+									<div 	id="box5linear">
+										<p>linear-gradient, röd till grön</p>
+									</div>
+									<code>
+										#box5linear{<br>
+												width: 200px;<br>
+												height:200px;<br>
+												text-align: center;<br>
+												vertical-align: middle;<br>
+												line-height: 100px;<br>
+												}<br>
+												background: linear-gradient(to bottom, gold, yellowgreen);<br>
+									</code>
+									<br>
+									<div id="box5radial">
+										<p>radial-gradient, röd till grön</p>
+									</div>
+									<code>
+										#box5radial{<br>
+											width: 200px;<br>
+											height:100px;<br>
+											text-align: center;<br>
+											vertical-align: middle;<br>
+											line-height: 100px;<br>
+											background: radial-gradient(lightcoral, maroon );<br>
+										}
+									</code>
+</body>
+</html>

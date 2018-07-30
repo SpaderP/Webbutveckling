@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<head>
+	<meta charset="UTF-8">
+	<title>2.4 Bilder och bakgrunder</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav>
+		<a href="../../index.html"> Hem</a>|
+		<b>2. Design med CSS3</b> |
+		<b>2.1</b><a href="../2.1/2.1.html"> Grunderna i CSS3 </a>|
+		<b>2.2</b><a href="../2.2/2.2.html"> Text och listor </a>|
+		<b>2.3</b><a href="../2.3/2.3.html"> Marginaler, kantlinjer och paddning </a>|
+		<b>2.4</b><a href="../2.4/2.4.html"> Bilder och bakgrunder </a>|
+		<b>2.5</b><a href="../2.5/2.5.html"> Navigering </a>|
+		<b>2.6</b><a href="../2.6/2.6.html"> Tabeller och formulär </a>|
+		<b>2.7</b><a href="../2.7/2.7.html"> Sidlayout </a>|
+		<b>2.8</b><a href="../2.8/2.8.html"> Anpassning till olika enheter </a>|
+	</nav>
+	<hr>
+			<h1>2.4 Bilder och bakgrunder</h1>
+	<hr>
+			<h2>Bakgrunder</h2>
+					<p>
+						Man kan ha både färger eller bilder som bakgrunder och man kan ha bakgrund för olika element och man kan ha flera bakrunder för olika element.
+					</p>
+					<ul>
+							<li>
+								<h3>Body: Bakgrundsfärgen och en bild på en smile är definerad i bakgrunden genom CSS.</h3>
+									<b>
+									<code>
+										body{<br>
+									 	background: AntiqueWhite url("../bild/smile.png") no-repeat fixed center/50px;<br>
+										}<br>
+									</code>
+								</b>
+							</li>
+
+							<li><b> h1: färgen i bakgrunden av h1.<br>
+								<code>
+									h1{<br>
+							 		background: AliceBlue;<br>
+									}<br>
+								</code>
+							</b>
+							</li>
+
+							<li><b> bakgrunden i li med olika bilder.<br>
+								bild 1<br>
+								<code>
+									#liB {<br>
+									background-image: url("../bild/lala.jpg");<br>
+									background-repeat: repeat;<br>
+									height: 52px;<br>
+									}<br>
+								</code>
+							</li>
+							<li id="liB"></li>
+							<li>
+									<b>bild 2</b><br>
+									<code><b>
+										#liB2 {<br>
+										background-image: url("../bild/havet.jpg");<br>
+										background-repeat: no-repeat;<br>
+										background-size: contain;<br>
+										height: 42px;<br>
+										}<br></b>
+									</code>
+							</li>
+							<li id="liB2"></li>
+					</ul>
+					<br>
+					<h3>Float & clear</h3>
+							<p>
+								Float använder man när man vill att texten ska flöda runt en bild och clear när man vill att en text och rubrik ska visas under bilden.
+							</p>
+							<h3>Exempel:</h3>
+							<div id="divfloat">
+								<img id="float" src="bild/smi.jpg" alt="smile">
+									<h2>Ipsizzle Shizzle</h2>
+										<p>
+											Da bomb ipsizzle shizzle my nizzle crocodizzle da bomb amizzle, gangsta adipiscing elit. Sheezy uhuh ... yih! velit, shut the shizzle up volutpizzle, shizzle my nizzle crocodizzle mammasay mammasa mamma oo sa, tellivizzle vizzle, hizzle. Fizzle fizzle tortor. Hizzle erizzle. Crackalackin izzle ass dapibizzle we gonna chung tempizzle tempor. Maurizzle boom shackalack nibh izzle turpizzle. Shiz izzle funky fresh. Pellentesque eleifend rhoncus mofo. In break it down yippiyo dictumst. Donec dapibizzle. Bling bling tellizzle fo shizzle, that's the shizzle eu, mattizzle check out this, tellivizzle vitae, nunc. Ass suscipizzle. Integizzle semper black sizzle dawg.
+											<br>
+											Etizzle check it out urna ut nisl. Sheezy quizzle sheezy. Maecenas pulvinar, shizzle my nizzle crocodizzle shiz malesuada pot, nulla purizzle dang its fo rizzle, et luctizzle crunk nulla et you son of a bizzle. Vivamizzle fo, tortor hizzle izzle congue, nibh for sure izzle izzle, izzle gangster leo elizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle dolizzle. Fo shizzle mah nizzle fo rizzle, mah home g-dizzle rizzle, orci we gonna chung volutpizzle shiz, break it down dang luctus nisi, shizznit bibendizzle enizzle shut the shizzle up go to hizzle nisl. Nullam dang velizzle ac orci eleifend viverra. Phasellus nec doggy. Curabitizzle nizzle velizzle i'm in the shizzle pede shizznit facilisizzle. Fo shizzle shiz nulla, iaculizzle vel, molestie sed, egestizzle a, erizzle. Nulla vitae turpis mah nizzle gangster bibendum yo. Ghetto mah nizzle consectetizzle its fo rizzle. Aliquam erizzle volutpat. Nunc daahng dawg leo sure lectus pretizzle faucibizzle. Crizzle check it out lacizzle pimpin' dui condimentum bow wow wow. Ut nisl. I'm in the shizzle izzle urna. Yo laoreet ipsizzle pizzle mi. Donec fo shizzle mah nizzle fo rizzle, mah home g-dizzle for sure.
+										</p>
+										<br>
+										<br>
+										<img id="float2" src="bild/nerd.png" alt="glasses" >
+										<h2>Hizzle Nisl</h2>
+										<p>
+											Nunc shizzle my nizzle crocodizzle erizzle mofo urna. Crackalackin congue. Vestibulizzle viverra things dui. Sure its fo rizzle amet bow wow wow eu get down get down shit pot. Suspendisse potenti. I'm in the shizzle izzle shiz vitae purus tincidunt aliquam. Sizzle stuff tempizzle fizzle. Funky fresh interdum erizzle et sizzle. Quisque bizzle. Nam vitae gangster sizzle diam mollizzle viverra. Nulla uhuh ... yih!. Nullam quis boofron a the bizzle my shizz bizzle. That's the shizzle we 			gonna chung dui fo shizzle shizzlin dizzle. Crizzle fo shizzle metizzle yippiyo tellizzle. Black mammasay mammasa mamma oo sa purus nizzle dui. Maecenizzle fo shizzle fizzle for sure.
+											<br>
+											Vivamus
+											fizzle lacus boom shackalack nizzle. Crazy izzle dui ac brizzle dapibizzle i saw beyonces tizzles and my pizzle went crizzle. Etizzle auctor pharetra dui. Aliquam hizzle feugiat mah nizzle. Things erat volutpizzle. In sizzle amet nisl. Uhuh ... yih! phat shizznit izzle dang. Go to hizzle dawg maurizzle. Quisque lorem shizzle my nizzle crocodizzle, molestie dapibus, mollizzle ut, fo shizzle my nizzle nizzle, mi. Mammasay mammasa mamma oo sa izzle i'm in the shizzle izzle sapien egestizzle crazy. Integer sheezy fo shizzle. Cras interdizzle. Pizzle nisi things, auctor vel, pharetra uhuh ... yih!, malesuada ut, nibh. Mofo dapibus yippiyo mi. Fo shizzle dawg dizzle, aliquizzle my shizz, vehicula izzle, , augue. Phat leo. Morbi that's the shizzle mah nizzle brizzle semper tellivizzle. Fizzle lectus dui, we gonna chung vestibulizzle, tempus shut the shizzle up, adipiscing izzle, .
+											<br>
+											Morbi interdum. Suspendisse potenti. Maecenizzle gangster. Etiam fo shizzle ante, ullamcorpizzle quizzle, fizzle check out this, scelerisque et, leo. Morbi daahng dawg neque. Duis felis. Morbi nonummy, nisl vitae fringilla cursus, mi check it out shut the shizzle up, laoreet neque enizzle owned augue. Crackalackin shiznit shut the shizzle up vizzle shiznit. Things shiznit pot fo libero. Funky fresh funky fresh, metus brizzle varizzle lacinia, cool erizzle pharetra tortizzle, crackalackin luctus 	my shizz est sizzle est.
+										</p>
+							</div>
+</body>
+</html>

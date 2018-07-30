@@ -1,0 +1,62 @@
+body{
+	 background: AntiqueWhite url("../bild/smile.png") no-repeat fixed center/50px;
+}
+nav{
+	background: white;
+}
+h1{
+	background: AliceBlue ;
+}
+
+}
+h1, h2, h3, h4, h5, h6 {
+
+	clear: left;
+	clear: right;
+}
+#ljusText {
+	text-decoration-color: white;
+}
+
+#liB {
+background-image: url("../bild/lala.jpg");
+background-repeat: repeat;
+background-size: contain;
+height: 52px;
+}
+
+
+
+#liB2 {
+background-image: url("../bild/havet.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+height: 42px;
+}
+
+
+#divfloat{
+	width: 900px;
+
+}
+
+#float{
+	float: left;
+	opacity: 0.6;
+	border: 3px ;
+	border-radius: 120px;
+	width: 200px;
+	height: auto;
+	margin-right: 200px;
+	margin-bottom: 15px;
+}
+
+#float2{
+	float: right;
+	opacity: 0.6;
+	border-radius: 10px;
+	width: 300px;
+	height: auto;
+	margin-right: 20px;
+	margin-bottom: 15px;
+}

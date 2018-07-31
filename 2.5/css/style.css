@@ -1,0 +1,56 @@
+a{
+	cursor:pointer;
+}
+a:visited{
+    color: darkslategrey;
+}
+a:hover{
+    color: darkmagenta;
+
+}
+a:active{
+    color: olive;
+}
+
+#cursor1{
+	color: green;
+	cursor: crosshair;
+}
+#cursor2{
+	color: red;
+	cursor: progress;
+}
+/*--------------Knappen-----------*/
+#knapp{
+	width: 70px;
+	color: white;
+	background-color: OliveDrab;
+	border-radius: 45px;
+	padding: 10px 10px 10px 10px;
+	cursor: pointer;
+	font-size: 19px;
+}
+#knapp:hover{
+	background-color: Aquamarine;
+	color: black;
+}
+#knapp:visited{
+	background-color: Aqua;
+	color: black;
+}
+/*--------------Grafiskaknappen----------*/
+
+#graficLink {
+	width: 30px;
+	cursor: pointer;
+}
+
+#graficLink:hover {
+	width: 80px;
+}
+#graficLink:active {
+	width: 80px;
+	opacity: 0.2;
+}
+
+/* -----------------------*/

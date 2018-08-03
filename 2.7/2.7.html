@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<head>
+	<title>2.7 Sidlayout</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav>
+		<a href="../../index.html"> Hem</a>|
+		<b>2. Design med CSS3</b> |
+		<b>2.1</b><a href="../2.1/2.1.html"> Grunderna i CSS3 </a>|
+		<b>2.2</b><a href="../2.2/2.2.html"> Text och listor </a>|
+		<b>2.3</b><a href="../2.3/2.3.html"> Marginaler, kantlinjer och paddning </a>|
+		<b>2.4</b><a href="../2.4/2.4.html"> Bilder och bakgrunder </a>|
+		<b>2.5</b><a href="../2.5/2.5.html"> Navigering </a>|
+		<b>2.6</b><a href="../2.6/2.6.html"> Tabeller och formulär </a>|
+		<b>2.7</b><a href="../2.7/2.7.html"> Sidlayout </a>|
+		<b>2.8</b><a href="../2.8/2.8.html"> Anpassning till olika enheter </a>|
+	</nav>
+	<hr>
+		<h1>2.7 Sidlayout</h1>
+	<hr>
+		<section id="arial">
+			<p>
+				Man kan använda sig av olika sidlayouts som kan få sidan att bete sig på ett annorlunda sätt när man förstorar/förminskar fönstret.
+ 				Sidlayouts är olika vilket man kan anpassa basserad på hur fönstret på webbläsarens storlek. Det finns tre olika
+			</p>
+			<p>
+			<b>
+				Fixerad layout </b>detta innebär att sidan inte kommer att anpassa sig efter storleken på webbläsarfönstret eller storleken på de interna elementen.
+				layouten på sidan blir då fast, vilket innebär att man inte ens kan zooma in etc.
+			</p>
+			<p>
+				<b>Flytande layout </b>syftar på att sidan anpassar sig med hjälp av enheten: "%".
+			</p>
+			<p>
+				<b>Elastisk layout </b> Vilket innebär att layouten anppasar sig till övriga element, vilket då sker med enheten: "em".
+			</p>
+		<h2>Varför man ska använda CSS och inte tabeller för detta?</h2>
+			<p>
+				Sidan laddar snabbt och svarar snabbare och bättre om man använder sig utav CSS istället för tabeller.<br>
+				Om man använder tabeller så har man sin "stil" kod blandat med innehållet vilket gör att koden blir längre och klumpigare.<br>
+				Man kan även kontrollera utseendet i dokumentets layout mer med hjälp utav CSS. Om man använder sig av tabeller<br>
+				så måste man ändra layouten i varje tabell i varje sida.
+			</p>
+		<h3>Exempel på fyra olika webbsidolayouter:</h3>
+					<a href="sidlayout/2.7.1_fix.html">Fixerad sida</a>,<br>
+					<a href="sidlayout/2.7.2_flyt.html">Flytande sida</a><br>
+					<a href="sidlayout/2.7.3_elast.html">Elastisk sida</a>,<br>
+					<a href="sidlayout/2.7.4_kolumn.html">Flödande text mellan columner</a><br>
+		</section>
+</body>
+</html>

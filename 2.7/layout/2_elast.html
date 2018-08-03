@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<head>
+	<title>Elastisk</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/2_elast.css">
+</head>
+<body>
+	<nav>
+		<a href="../../../index.html"> Hem</a>|
+		<b>2. Design med CSS3</b> |
+		<b>2.7</b><a href="../../2.7/2.7.html"> Sidlayout </a>|
+	</nav>
+	<hr>
+			<header class="headerFooter">
+					<br>
+					<h1>Elastisk sida</h1>
+			</header>
+
+			<div id="leftColumn">
+					<p>
+						Jag använder här float samt clear. Float: för att bestämma hur helementet ska placera sig, man kan även använda float för att få
+						element att placera sig bredvid varandra. Clear: med clear gör jag så att det elementet som jag använder clear på placeras efter float elementet.
+					</p>
+			</div>
+
+			<div id="centerColumn">
+					<p>
+							Jag använder även Height och Width för att bestämma höjd och bredd på ett objekt.Max-height, Min-height, Max-width samt Min-width används för att
+							sätta den minsta/största bredden samt höjden på elementet.
+					</p>
+					<br>
+					<p>
+							Position anger hur ett element/objekt ska positioneras. Detta kan vara <b>statisk</b> som är det normala. När ett element har <b>relativ</b> positionering
+							så är dens position relativ till den standardpositionen. <b>Absolut</b> innebär att dens position är relativ till dens närmaste-positionerade släkting.
+							<b>Fixerad</b> är den då dens positon är relativ till fönstret och är alltid på samma plats på fönstret va du än gör som användare.
+							<b>Sticky</b> är relativt till användarens scroll-position.
+					</p>
+					<br>
+					<div class="fixed">
+							<p>Denna div har position: fixed.</p>
+					</div>
+					<br>
+					<hr>
+					<h3>Z-index</h3>
+							<p>
+								Ju högre z-index värde ett element har ju högre lager ligger elementet på.
+								Det elementet som ligger på högre lager kommer att täcka elementen på lägre lager.
+							</p>
+							<br>
+							<img id="imgPic" src="../bild/smile.png">
+								<p>	Z-index på bilden är -1.</p>
+								<br>
+								<br>
+								<br>
+								<hr>
+			</div>
+
+			<div id="rightColumn">
+						<p>
+				Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+			</p>
+			</div>
+
+		<footer class="headerFooter">
+			<h1>Elastisk sida</h1>
+		</footer>
+
+
+</body>
+</html>

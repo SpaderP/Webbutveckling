@@ -1,0 +1,61 @@
+.headerFooter{
+	background: indigo;
+	height: 6em;
+	text-align: center;
+	font-size: 2em;
+}
+body{
+	width: 960px;
+	margin: auto;
+}
+footer{
+	clear: both;
+	position: relative;
+	width: inherit%;
+	left: 0;
+	bottom: 0;
+}
+
+h1{
+	font-family: Arial black, sans-serif;
+	color: #3b0066;
+	margin: 0;
+	text-shadow: -5px 3px 2px plum;
+}
+/*KOlUMNER*/
+		#leftColumn{
+			float: left;
+			width: 20%;
+		}
+		#centerColumn{
+			margin-left: 0px;
+			margin-right: 0px;
+			float: left;
+			width: 60%;
+		}
+		#rightColumn{
+			float: right;
+			width: 20%;
+		}
+/*POSITIONER*/
+		#topPos{
+			position: fixed;
+			position: relative;
+			border: 3px solid GREEN;
+			top: 80px;
+		}
+		#bottomPos{
+			position: relative;
+			border: 3px solid blue;
+			bottom: 40px;
+		}
+		#leftPos{
+			position: relative;
+			border: 3px solid bROWN;
+			left: 40px;
+		}
+		#rightPos{
+			position: relative;
+			border: 3px solid RED;
+			right: 40px;
+		}

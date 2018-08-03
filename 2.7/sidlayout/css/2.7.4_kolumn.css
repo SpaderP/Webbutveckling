@@ -1,0 +1,11 @@
+h1,h3{
+text-align: center;
+}
+
+#columnWidthSet{
+	column-width: 100px;
+}
+
+#columnCountSet{
+	column-count: 3;
+}

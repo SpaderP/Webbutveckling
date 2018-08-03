@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<head>
+	<title>Tabeller och formulär</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav>
+		<a href="../../index.html"> Hem</a>|
+		<b>2. Design med CSS3</b> |
+		<b>2.1</b><a href="../2.1/2.1.html"> Grunderna i CSS3 </a>|
+		<b>2.2</b><a href="../2.2/2.2.html"> Text och listor </a>|
+		<b>2.3</b><a href="../2.3/2.3.html"> Marginaler, kantlinjer och paddning </a>|
+		<b>2.4</b><a href="../2.4/2.4.html"> Bilder och bakgrunder </a>|
+		<b>2.5</b><a href="../2.5/2.5.html"> Navigering </a>|
+		<b>2.6</b><a href="../2.6/2.6.html"> Tabeller och formulär </a>|
+		<b>2.7</b><a href="../2.7/2.7.html"> Sidlayout </a>|
+		<b>2.8</b><a href="../2.8/2.8.html"> Anpassning till olika enheter </a>|
+	</nav>
+
+	<hr>
+
+	<h1>2.6 Tabeller och formulär</h1>
+
+	<hr>
+
+	<h2>Table-layout</h2>
+		<p>
+			Med hjälp av css kan man redigera tabeller. En av fördelarna med border-layout är fixed som möjliggör att
+			användarna kan se en stor tabel och alla delar av den då webbläsaren laddat klart. webbläsaren visar då en del av tabellen vilket
+			ger intrycket att den laddar snabbare.
+
+		</p>
+	<h3>Exempel:</h3>
+		<table id="table">
+			<tr>
+				<th>Nummer 1</th>
+				<th>Nummer 2</th>
+				<th>Nummer 3</th>
+				<th>Nummer 4</th>
+				<th>Nummer 5</th>
+			</tr>
+			<tr>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+				<th>4</th>
+				<th>5</th>
+			</tr>
+			<tr>
+				<th>11</th>
+				<th>22</th>
+				<th>33</th>
+				<th>44</th>
+				<th>55</th>
+			</tr>
+			<tr>
+				<th>111</th>
+				<th>222</th>
+				<th>333</th>
+				<th>444</th>
+				<th>555</th>
+			</tr>
+		</table>
+	<br>
+	<br>
+
+	<h2>CSS med formulär</h2>
+	<p>
+		Ett html formulär kan stilsättas genom css och bli mycket snyggare. Detta genom att att ändra färgen på tex bakgrunden eller
+		redigera knapparn.
+	</p>
+	<br>
+	<h3>Exempel:</h3>
+		<form>
+			<label>Förnam </label>
+			<input type="text" >
+			<br>
+			<label>Efternam</label>
+			<input type="text">
+			<br>
+			<input type="submit" value="Skicka">
+		</form>
+		<br>
+		<br>
+	<h3>Exakt samma formulär med CSS:</h3>
+		<div id="form">
+			<form>
+				<label>Förnamn</label>
+				<input class="lala" type="text" value="Nicke">
+				<br>
+				<label>Efternamn</label>
+				<input class="lala" type="text" value="Nyfiken">
+				<br>
+				<input class="knapp" type="submit" value="Skicka">
+			</form>
+		</div>
+</body>
+</html>

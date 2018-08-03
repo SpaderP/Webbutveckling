@@ -1,0 +1,48 @@
+
+#table th, td{
+		width: 600px;
+		border: 3px solid black;
+		width: 10500px;
+		border: solid 3px black;
+		table-layout: fixed;
+		border: 2px dotted black;
+}
+/*formuläret */
+.lala{
+	padding:5px;
+	border:2px solid #ccc;
+	width: 100%;
+	margin: 6px 0;
+	;
+	color: blue;
+	background: plum;
+}
+.lala:focus{
+    border: 8px solid #FF00FF;
+		background-color: lightblue;
+}
+
+.knapp{
+	background: blue;
+	 border: none;
+	 color: white;
+	 padding: 16px 32px;
+	 text-decoration: none;
+	 margin: 4px 2px;
+	 cursor: pointer;
+}
+
+
+#form{
+	width: 250px;
+}
+input[type=submit] {
+    padding:5px 15px;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type=text]:focus {
+
+}

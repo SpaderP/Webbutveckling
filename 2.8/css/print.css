@@ -1,0 +1,18 @@
+@media print { 
+	
+	*{
+		font-size: 1em;
+		font-family: Palatino Linotype;
+	}
+
+	.headerclass{
+		display: none;
+	}
+
+	.rightside{
+		display: none;
+	}
+	.leftside{
+		display: none;
+	}
+}

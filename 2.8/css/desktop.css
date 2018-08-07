@@ -1,0 +1,77 @@
+
+#head{
+color: green;
+}
+
+#owtnext{
+	display: block;
+	text-align: center;
+	padding: 30px;
+}
+
+#headiv{
+	margin: 0 auto;
+	width: 100%;
+}
+#smile{
+	width: 250px;
+	height: auto;
+}
+
+.headerclass{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	background: Fuchsia;
+	color: white;
+	padding: 25px 0px;
+}
+
+.leftside{
+	float: left;
+	width: 120px;
+	min-height: 700px;
+	background: #92a9a5;
+}
+
+.rightside{
+	float: right;
+	width: 120px;
+	min-height: 700px;
+	background: #92a9a5;
+}
+
+
+/* Minska rutan*/
+
+
+@media only screen and (max-width: 1024px){
+
+	#head{
+	color: midnightblue;
+	}
+
+	#owtnext{
+		display: block;
+		text-align: center;
+		padding: 30px;
+	}
+
+	#headiv{
+		margin: 0 auto;
+		width: 100%;
+	}
+	#smile{
+		width: 150px;
+		height: auto;
+	}
+	.headerclass{
+		width: 100%;
+		height: 100px;
+		text-align: center;
+		background: RebeccaPurple;
+		color: white;
+		padding: 25px 0px;
+	}
+
+}

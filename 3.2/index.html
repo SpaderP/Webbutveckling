@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<head>
+	<title>3.2 DOM-objekt och jQuery</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<nav>|
+		<a href="../../index.html"> Hem </a>|
+		<b>3. Dynamik med JavaScript</b> |
+		<b>3.1</b><a href="../3.1/index.html"> Grunderna i JavaScript</a> |
+		<b>3.2</b><a href="../3.2/index.html"> DOM-objekt och jQuery</a> |
+		<b>3.3</b><a href="../3.3/index.html"> Webbläsar-objekt</a> |
+		<b>3.4.1</b><a href="../3.4.1/index.html"> Effekter och animationer</a> |
+		<b>3.4.2</b><a href="../3.4.2/index.html"> Bildhantering</a> |
+		<b>3.4.3</b><a href="../3.4.3/index.html"> Navigering</a> |
+		<b>3.4.4</b><a href="../3.4.4/index.html"> Utvidgbara gränssnitt</a> |
+		<b>3.4.5</b><a href="../3.4.5/index.html"> Formulärhantering</a> |
+	</nav>
+	<hr>
+		<h1 id="rubrik">3.2 DOM-objekt och jQuery</h1>
+	<hr>
+<!--
+
+    Ändra en egenskap för ett HTML-elementet
+    Lägga till nytt innehåll till ett HTML-elementet
+    Ta bort ett HTML-element
+    Utvinna information från ett HTML-element
+    Lägga till och ta bort ett klass-attribut från ett HTML-element
+
+-->
+		<div id="bytFont">
+			<h2>Ändra en egenskap för ett HTML-elementet</h2>
+				<p>Tryck här och teckensittet ändras till Arial.</p>
+		</div>
+	<hr>
+		<div id="nyText">
+			<h2>Lägga till nytt innehåll till ett HTML-elementet</h2>
+				<p id="newText">Tryck på texten och <b>ny text</b> läggs till. </p>
+		</div>
+	<hr>
+		<div id="radera">
+			<h2>Ta bort ett HTML-element</h2>
+				<p>Hela denna sektionen raderas när man klickar här innanför sektionen.</p>
+		</div>
+	<hr>
+		<div id="getTitel" title="Detta är titeln ">
+			<h2>Utvinna information från ett HTML-element</h2>
+			<p id="addTitel"> information från titeln: </p>
+		</div>
+	<hr>
+		<div >
+			<h2>Lägga till och ta bort ett klass-attribut från ett HTML-element</h2>
+				<p id="raderaKlass" class="raderaKlass">Tryck här och ta bort ett klass-attribut.</p>
+				<p id="addClass">Tryck här och lägga till klass-attributen.</p>
+		</div>
+	<hr>
+	<!--
+
+	-->
+		<div>
+			<h2>Tangentbordshändelser</h2>
+				<p> Tryck på valfri tangent på tagnentbordet och du kan se dess ID.</p>
+				<span id="tryckTang"></span>
+		</div>
+	<hr>
+		<h2>Formulärhändelser</h2>
+			<p> Tryck i rutan</p>
+			<form id="form">
+				<input type="text" id="fokus">
+				<span id="fokusText"></span><br>
+			</form>
+	<hr>
+		<div id="hovChange">
+			<h2>Hoover</h2>
+				<p id="changeHovText">Detta är inledande texten när musen inte pekat.</p>
+		</div>
+	<hr>
+		<div id="events">
+			<h2>När man klickar här i sektionen så visas nedan dina kordinater</h2>
+				<p id="kordinationer">Kordinaterna</p>
+		</div>
+	<hr>
+		<h2>Stoppar en händelses normala beteende</h2>
+			<p>Länken nedan kommer inte att ta dig till kimura.se då standardhändelsen är förhindrad</p>
+				<a href="http://www.google.com" id="linkblock">Goolge</a>
+	<hr>
+		<div id="raderaEvent">
+			<h2>Ta bort händelse</h2>
+			<p>Tryck inom ramarna i denna del och det uppenbara ny text. Tryck stop för att förhindra det</p><br>
+			<button>Stop</button><br>
+		</div>
+	<hr>
+		<h2>Ändra storlek på webbläsarfönstret och färgen ändras till cornsilk</h2>
+
+</body>
+</html>
